@@ -1,0 +1,24 @@
+[0.452s] Invoking command in '/home/vagrant/turtlebot3_ws/src/show_msg': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vagrant/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/vagrant/turtlebot3_ws/build/show_msg/build install --prefix /home/vagrant/turtlebot3_ws/install/show_msg --record /home/vagrant/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed
+[0.596s] running egg_info
+[0.597s] writing ../../build/show_msg/show_msg.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../build/show_msg/show_msg.egg-info/dependency_links.txt
+[0.597s] writing entry points to ../../build/show_msg/show_msg.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../build/show_msg/show_msg.egg-info/requires.txt
+[0.598s] writing top-level names to ../../build/show_msg/show_msg.egg-info/top_level.txt
+[0.623s] reading manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[0.624s] writing manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[0.624s] running build
+[0.624s] running build_py
+[0.624s] copying show_msg/show_msg.py -> /home/vagrant/turtlebot3_ws/build/show_msg/build/lib/show_msg
+[0.624s] running install
+[0.625s] running install_lib
+[0.626s] copying /home/vagrant/turtlebot3_ws/build/show_msg/build/lib/show_msg/show_msg.py -> /home/vagrant/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[0.626s] byte-compiling /home/vagrant/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg/show_msg.py to show_msg.cpython-38.pyc
+[0.627s] running install_data
+[0.627s] running install_egg_info
+[0.628s] removing '/home/vagrant/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.628s] Copying ../../build/show_msg/show_msg.egg-info to /home/vagrant/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info
+[0.629s] running install_scripts
+[0.644s] Installing show_msg script to /home/vagrant/turtlebot3_ws/install/show_msg/lib/show_msg
+[0.644s] writing list of installed files to '/home/vagrant/turtlebot3_ws/build/show_msg/install.log'
+[0.660s] Invoked command in '/home/vagrant/turtlebot3_ws/src/show_msg' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vagrant/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/vagrant/turtlebot3_ws/build/show_msg/build install --prefix /home/vagrant/turtlebot3_ws/install/show_msg --record /home/vagrant/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed

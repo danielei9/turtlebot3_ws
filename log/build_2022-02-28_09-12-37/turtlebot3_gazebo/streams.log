@@ -1,0 +1,321 @@
+[0.012s] Invoking command in '/home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vagrant/turtlebot3_ws/install/my_first_subscriber:/home/vagrant/turtlebot3_ws/install/my_first_publisher:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/vagrant/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo
+[0.071s] -- The C compiler identification is GNU 9.3.0
+[0.138s] -- The CXX compiler identification is GNU 9.3.0
+[0.139s] -- Check for working C compiler: /usr/bin/cc
+[0.194s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.194s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.252s] -- Detecting C compile features
+[0.253s] -- Detecting C compile features - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.313s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.378s] -- Detecting CXX compile features
+[0.378s] -- Detecting CXX compile features - done
+[0.380s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.398s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.398s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.538s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.542s] -- Checking for module 'bullet>=2.82'
+[0.553s] --   Found bullet, version 2.88
+[0.638s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.676s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.717s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.739s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.957s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.973s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.977s] -- Looking for ignition-math6 -- found version 6.9.2
+[0.981s] -- Searching for dependencies of ignition-math6
+[0.982s] -- Looking for OGRE...
+[0.983s] -- OGRE_PREFIX_WATCH changed.
+[0.986s] -- Checking for module 'OGRE'
+[0.996s] --   Found OGRE, version 1.9.0
+[1.023s] -- Found Ogre Ghadamon (1.9.0)
+[1.030s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.039s] -- Looking for OGRE_Paging...
+[1.044s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.044s] -- Looking for OGRE_Terrain...
+[1.049s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.049s] -- Looking for OGRE_Property...
+[1.055s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.055s] -- Looking for OGRE_RTShaderSystem...
+[1.059s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.060s] -- Looking for OGRE_Volume...
+[1.064s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.064s] -- Looking for OGRE_Overlay...
+[1.069s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.160s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.161s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.162s] -- Searching for dependencies of ignition-transport8
+[1.178s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.187s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.192s] -- Checking for module 'libzmq >= 4'
+[1.202s] --   Found libzmq , version 4.3.2
+[1.231s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.236s] -- Checking for module 'uuid'
+[1.246s] --   Found uuid, version 2.34.0
+[1.272s] -- Found UUID: TRUE  
+[1.274s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.274s] -- Searching for dependencies of ignition-msgs5
+[1.292s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.295s] -- Checking for module 'tinyxml2'
+[1.305s] --   Found tinyxml2, version 6.2.0
+[1.334s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.335s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.336s] -- Searching for dependencies of ignition-common3
+[1.336s] -- Looking for dlfcn.h - found
+[1.337s] -- Looking for libdl - found
+[1.338s] -- Found DL: TRUE  
+[1.344s] -- Searching for <ignition-common3> component [graphics]
+[1.345s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.346s] -- Searching for dependencies of ignition-common3-graphics
+[1.346s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.348s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.349s] -- Searching for dependencies of ignition-fuel_tools4
+[1.398s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.405s] -- Checking for module 'jsoncpp'
+[1.415s] --   Found jsoncpp, version 1.7.4
+[1.443s] -- Found JSONCPP: TRUE  
+[1.448s] -- Checking for module 'libzip'
+[1.458s] --   Found libzip, version 1.5.1
+[1.484s] -- Found ZIP: TRUE  
+[1.485s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.485s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.485s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.488s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[1.489s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.514s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.581s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.603s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.669s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.734s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.791s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.825s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.826s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.828s] -- Found Threads: TRUE  
+[1.946s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.002s] -- Found tf2: 0.13.12 (/opt/ros/foxy/share/tf2/cmake)
+[2.060s] -- Configuring done
+[2.085s] -- Generating done
+[2.087s] -- Build files have been written to: /home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo
+[2.095s] Invoked command in '/home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vagrant/turtlebot3_ws/install/my_first_subscriber:/home/vagrant/turtlebot3_ws/install/my_first_publisher:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/vagrant/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo
+[2.097s] Invoking command in '/home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vagrant/turtlebot3_ws/install/my_first_subscriber:/home/vagrant/turtlebot3_ws/install/my_first_publisher:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo -- -j2 -l2
+[2.133s] [35m[1mScanning dependencies of target obstacles[0m
+[2.157s] [35m[1mScanning dependencies of target obstacle2[0m
+[2.278s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[2.284s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[12.421s] [ 37%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[12.805s] [ 37%] Built target obstacles
+[12.814s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[12.859s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[12.886s] [ 62%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[13.280s] [ 62%] Built target obstacle2
+[13.298s] [35m[1mScanning dependencies of target obstacle1[0m
+[13.484s] [ 75%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[21.113s] [ 87%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[21.592s] [ 87%] Built target turtlebot3_drive
+[23.478s] [100%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[23.687s] [100%] Built target obstacle1
+[23.697s] Invoked command in '/home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vagrant/turtlebot3_ws/install/my_first_subscriber:/home/vagrant/turtlebot3_ws/install/my_first_publisher:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo -- -j2 -l2
+[23.724s] Invoking command in '/home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vagrant/turtlebot3_ws/install/my_first_subscriber:/home/vagrant/turtlebot3_ws/install/my_first_publisher:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo
+[23.731s] -- Install configuration: ""
+[23.731s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[23.734s] -- Set runtime path of "/home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[23.734s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[23.734s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[23.734s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[23.734s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[23.734s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[23.735s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[23.735s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[23.735s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[23.735s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[23.735s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py
+[23.735s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[23.735s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[23.735s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[23.735s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[23.736s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[23.736s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[23.736s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[23.736s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[23.736s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[23.736s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes
+[23.736s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[23.737s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+[23.737s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[23.737s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[23.737s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[23.737s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[23.737s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures
+[23.738s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png
+[23.739s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts
+[23.739s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material
+[23.739s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config
+[23.739s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down
+[23.739s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf
+[23.739s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials
+[23.739s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures
+[23.739s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png
+[23.740s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts
+[23.740s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material
+[23.740s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config
+[23.740s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop
+[23.740s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf
+[23.740s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials
+[23.740s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures
+[23.740s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png
+[23.741s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts
+[23.741s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material
+[23.741s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config
+[23.741s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config
+[23.741s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground
+[23.741s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf
+[23.741s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config
+[23.741s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course
+[23.742s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf
+[23.742s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials
+[23.742s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures
+[23.742s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
+[23.742s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts
+[23.742s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
+[23.743s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config
+[23.743s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights
+[23.743s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf
+[23.743s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config
+[23.743s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up
+[23.743s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf
+[23.743s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials
+[23.743s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures
+[23.743s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png
+[23.744s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts
+[23.744s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material
+[23.744s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config
+[23.744s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking
+[23.744s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf
+[23.744s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials
+[23.744s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures
+[23.744s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png
+[23.745s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts
+[23.745s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material
+[23.745s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config
+[23.745s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green
+[23.745s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf
+[23.745s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config
+[23.745s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow
+[23.745s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf
+[23.746s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config
+[23.746s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles
+[23.746s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf
+[23.746s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config
+[23.746s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[23.746s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes
+[23.746s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[23.746s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[23.747s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[23.747s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[23.747s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[23.747s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[23.747s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[23.747s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes
+[23.747s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[23.747s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[23.748s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+[23.748s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[23.748s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[23.748s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[23.748s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[23.748s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[23.748s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[23.749s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[23.749s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[23.749s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[23.749s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[23.749s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[23.749s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[23.749s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[23.749s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[23.750s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[23.750s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[23.750s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[23.750s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[23.750s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[23.750s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[23.750s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[23.750s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[23.751s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[23.751s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[23.751s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[23.751s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[23.751s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[23.751s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[23.751s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[23.752s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[23.752s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[23.752s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[23.752s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[23.752s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4
+[23.752s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model
+[23.752s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model
+[23.753s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model
+[23.753s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces
+[23.753s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model
+[23.753s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model
+[23.753s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model
+[23.753s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds
+[23.753s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[23.753s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[23.753s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[23.754s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1
+[23.754s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model
+[23.754s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model
+[23.754s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model
+[23.754s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3
+[23.754s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model
+[23.754s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model
+[23.754s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model
+[23.754s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses
+[23.755s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[23.755s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[23.755s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[23.755s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2
+[23.755s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model
+[23.755s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model
+[23.755s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model
+[23.755s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds
+[23.756s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[23.756s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[23.756s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[23.756s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/include/
+[23.756s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[23.756s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[23.756s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[23.757s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[23.757s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[23.757s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[23.757s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[23.757s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[23.757s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[23.758s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[23.758s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[23.758s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[23.758s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[23.758s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[23.758s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.759s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.759s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[23.759s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[23.759s] -- Installing: /home/vagrant/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[23.767s] Invoked command in '/home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vagrant/turtlebot3_ws/install/my_first_subscriber:/home/vagrant/turtlebot3_ws/install/my_first_publisher:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/vagrant/turtlebot3_ws/build/turtlebot3_gazebo
