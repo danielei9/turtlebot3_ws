@@ -22,13 +22,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='asun',
-    maintainer_email='asun@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='danielBurruchaga',
+    maintainer_email='dbursol@upv.epsg.es',
+    description='Nav module for ROs2',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            # Scripts to run in this package
             'initial_pose_pub = my_nav2_system.initial_pose_pub:main',
             'load_map = my_nav2_system.load_map:main',
             'nav_to_pose = my_nav2_system.nav_to_pose:main',
