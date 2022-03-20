@@ -27,13 +27,29 @@ class SimplePublisher(Node):
         # creamos el mensaje tipo Twist
         msg = Twist()
         # define la velocidad lineal en el eje x 
-        msg.linear.x = 0.5
+        msg.linear.x = 1
         # define tla velocidad angular en el eje z
-        msg.angular.z = 0.5
+        msg.angular.z = 1
         # Publicamos el mensaje en el topic
         self.publisher_.publish(msg)
         # Mostramos el mensaje por el terminal
         self.get_logger().info('Publishing: "%s"' % msg)
+        
+        
+    def stopRobot(self):
+        # creamos el mensaje tipo Twist
+        msg = Twist()
+        # define la velocidad lineal en el eje x 
+        msg.linear.x = 0
+        # define tla velocidad angular en el eje z
+        msg.angular.z = 0
+        # Publicamos el mensaje en el topic
+        self.publisher_.publish(msg)
+        # Mostramos el mensaje por el terminal
+        self.get_logger().info('Publishing: "%s"' % msg)
+        
+        
+        
             
 def main(args=None):
     # inicializa la comunicación
